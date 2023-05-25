@@ -5,7 +5,7 @@ link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
 
 class TestProductPage:
 
-    def test_items(self, browser):
+    def test_add_product_to_basket_button(self, browser):
         # Открываем страницу товара
         browser.get(link)
         # Установлено время принудительной задержки браузера
